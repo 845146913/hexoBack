@@ -6,6 +6,7 @@ tags: 随笔
 正文：
 
 	代码如下：
+	```js
 	function isContained(a, b){
 	    if(!(a instanceof Array) || !(b instanceof Array)) return false;
 	    if(a.length < b.length) return false;
@@ -15,3 +16,4 @@ tags: 随笔
 	    }
 	    return true;
 	}
+	```
