@@ -4,6 +4,8 @@ date: 2017-10-25 23:01:36
 tags: 随笔
 ---
 正文：
+
+	代码如下：
 	function isContained(a, b){
 	    if(!(a instanceof Array) || !(b instanceof Array)) return false;
 	    if(a.length < b.length) return false;
