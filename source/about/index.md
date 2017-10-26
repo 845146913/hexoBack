@@ -13,6 +13,7 @@ date: 2017-10-26 22:53:49
     -- mybatis\hibernate\spring data jpa
     -- solr
     -- websocket
+    -- activemq
     -- springcloud
     -- dubbo
     -- 一些前端技术vue,javascript,jquery,bootstrap
