@@ -5,15 +5,16 @@ tags: 随笔
 ---
 正文：
 
-	代码如下：
-	```js
-	function isContained(a, b){
-	    if(!(a instanceof Array) || !(b instanceof Array)) return false;
-	    if(a.length < b.length) return false;
-	    var aStr = a.toString();
-	    for(var i = 0, len = b.length; i < len; i++){
-	       if(aStr.indexOf(b[i]) == -1) return false;
-	    }
-	    return true;
-	}
-	```
+代码如下：
+
+```javascript
+function isContained(a, b){
+  if(!(a instanceof Array) || !(b instanceof Array)) return false;
+  if(a.length < b.length) return false;
+  var aStr = a.toString();
+  for(var i = 0, len = b.length; i < len; i++){
+    if(aStr.indexOf(b[i]) == -1) return false;
+  }
+  return true;
+}
+```
