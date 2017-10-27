@@ -12,8 +12,10 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://845146913.github.io
+url: https://845146913.github.io
 root: /
+# url: http://silencewang.coding.me/myblog
+# root: /myblog/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -80,8 +82,9 @@ theme: anatole
 deploy: 
   type: git
   #elfwalk改为你的github用户名
-  repository: https://github.com/845146913/845146913.github.io.git
-  branch: master
+  repository: 
+    github: https://github.com/845146913/845146913.github.io.git,master
+    coding: https://git.coding.net/silencewang/myblog.git,master
 #anatole
 archive_generator:
   per_page: 0
